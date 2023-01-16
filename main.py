@@ -995,7 +995,6 @@ def command():
     command = input()
     if command == "cls" or command == "clear":
         clear()
-        title()
     elif command == "help" or command == "?":
         help()
     elif command == "credit":
@@ -1220,7 +1219,6 @@ def func():
 
 if __name__ == '__main__':
     clear()
-    title()
     while True:
         command()
 
