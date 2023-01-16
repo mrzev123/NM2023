@@ -990,66 +990,6 @@ def clear():
     else: 
         system('clear')
 ##############################################################################################
-def help():
-    stdout.write("                                                                                         \n")
-    stdout.write("HELP   \n")
-    stdout.write("layer7 - Show Layer7 Methods  \n")
-    stdout.write("layer4 - Show Layer4 Methods \n")
-    stdout.write("tools - Show tools  \n")
-    stdout.write("\n")
-############################################################################################## 
-##############################################################################################
-def layer7():
-    clear()
-    stdout.write("                                                                                         \n")
-    stdout.write(" LAYER 7 \n")
-   stdout.write("spoof - STRONG Bypass with spoof Xforward \n")
-   stdout.write("cfb   - Bypass CF Attack                  \n")
-   stdout.write("pxcfb - Bypass CF Attack With Proxy       \n")                  
-   stdout.write("cfpro - Bypass CF UAM, CAPTCHA, BFM (request) \n")
-   stdout.write("cfsoc - Bypass CF UAM, CAPTCHA, BFM (socket)  \n")
-   stdout.write("bypass- Bypass Google Project Shield, Vshield \n")
-   stdout.write("sky   - DDoS Guard Free, CF NoSec         \n")
-   stdout.write("stellar - HTTPS Sky method without proxies  \n")
-   stdout.write("stress - DDos stress HEX method            \n")
-   stdout.write("get   - Get Request Attack                \n")
-   stdout.write("post  - Post Request Attack               \n")
-   stdout.write("head  - Head Request Attack               \n")
-   stdout.write("http2 - HTTP 2.0 Request Attack           \n")
-   stdout.write("spoof - HTTP Spoof Socket Attack          \n")
-   stdout.write("soc   - Socket Attack                     \n")
-   stdout.write("hulk  - Hulk DoS tool                     \n")
-   stdout.write("pxhulk- Proxy Hulk DoS tool               \n")
-   stdout.write("pxraw - Proxy Request Attack              \n")
-   stdout.write("pxsoc - Proxy Socket Attack               \n")
-   stdout.write("pxslow- Proxy Slowloris attack            \n")
-    stdout.write("\n")
-##############################################################################################
-def layer4():
-    clear()
-    stdout.write(" \n")
-    stdout.write("LAYER 4  \n")
-    stdout.write("udp UDP Attack  \n")
-    stdout.write("tcp UDP Attack  \n")
-    stdout.write("mine Minecraft Dos attack \n")
-    stdout.write("vse  Send Valve Source Engine Protocol  \n")
-##############################################################################################
-def tools():
-    clear()
-    stdout.write(" \n")
-     stdout.write("TOOLS   \n")
-    stdout.write("geoip   \n")
-    stdout.write("dns  \n")
-    stdout.write("subnet  \n")
-    stdout.write("\n")
-##############################################################################################
-def title():
-    stdout.write("                                                                                          \n")
-    stdout.write("PENTEST DOS MUTIL METHOD    \n")
-    stdout.write("ADDED NEW METHOD AND BYPASS   \n")
-    stdout.write("Type [help] to see the Commands  \n")
-    stdout.write("\n")
-##############################################################################################
 def command():
     stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""root"+Fore.LIGHTGREEN_EX+"@"+Fore.LIGHTGREEN_EX+"Hasoki"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
     command = input()
